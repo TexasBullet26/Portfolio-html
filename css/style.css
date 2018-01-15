@@ -1,0 +1,107 @@
+/* THE BODY OF THE HTML */
+body {
+	font:20px Montserrat, sans-serif;
+  line-height:1.8;
+	color:#f5f6f7;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+/* ALL h3 HEADINGS */
+h3 {
+  font-family:'Montserrat', sans-serif; /* h3 element font */
+  font-size:38px; /* h3 element font size */
+  font-weight:bold; /* h3 element bold font */
+  color:lightgray; /* h3 element font color */
+}
+
+/* THE h4 HEADING IN HOME SECTION */
+h4 {
+	font-family:'Vollkorn', serif; /* h4 element font */
+  font-size:30px; /* h4 element font size */
+}
+
+/* ALL p ELEMENTS (PARAGRAPH) */
+p {
+  font-family:'Vollkorn', serif; /* p element font */
+  font-size:18px; /* p element font size */
+}
+
+/* Class="margin" IN h3 ELEMENTS */
+.margin {
+  margin-bottom:45px; /* bottom margin for margin classes */
+}
+
+/* bg-1 CLASS FOR DIV IN THE HOME DIV */
+.bg-1 {
+  background-color:maroon; /* background color for bg-1 class */
+  color:lightgray; /* text color for bg-1 class */
+  border-bottom:5px solid darkgray; /* bottom border for bg-1 class */
+}
+
+/* bg-2 CLASS FOR DIV IN THE ABOUT DIV */
+.bg-2 {
+  background-color:black; /* background color for bg-2 class */
+  color:lightgray; /* text color for bg-2 class */
+  border-bottom:5px solid darkgray; /* bottom border for bg-2 class */
+}
+
+/* bg-3 CLASS FOR DIV IN THE PROJECTS DIV */
+.bg-3 {
+  background-color:dimgray; /* background color for bg-3 class */
+  color:lightgray; /* text color for bg-3 class */
+  border-bottom:5px solid darkgray; /* bottom border for bg-3 class */
+}
+
+/* bg-4 CLASS FOR DIV IN THE CONTACT DIV */
+.bg-4 {
+  background-color:#2f2f2f; /* Black Gray */ /* background color for bg-4 class */
+  color:lightgray; /* text color for bg-4 class */
+}
+
+/* ALL <class="container-fluid"> */
+.container-fluid {
+  padding-top:50px; /* top padding for each container-fluid class */
+  padding-bottom:50px; /* bottom padding for each container-fluid class */
+}
+
+/* NAVBAR <nav class="navbar navbar-default"> */
+.navbar {
+  padding-top:15px; /* top padding for navigation */
+  padding-bottom:15px; /* bottom padding for navigation */
+  border-bottom:5px solid darkgray; /* bottom border of navigation */
+  border-radius:0; /* border radius for navigation */
+  margin-bottom:0; /* bottom margin for navigation */
+  font-size:14px; /* font size for nvigation text */
+  letter-spacing:5px; /* letter spacing for navigation text */
+}
+
+/* HOVER COLOR OF THE NAVBAR LIST */
+.navbar-nav  li a:hover, #contact .fa:hover {
+  color:#1abc9c !important; /* teal hover color for text in navigation */
+}
+
+/* CONTACT INFO ICONS IN <footer class="container-fluid bg-4 text-center" id="contact"> */
+#contact .fa {
+  font-size:3.0rem; /* icon sizes in contact section */
+  margin-bottom:0.5rem; /* bottom margin for icons */
+  color:lightgray; /* color for icons in contact section */
+}
+
+/* MAP OF MY LOCATION IN CONTACT SECTION */
+#map {
+  height:275px; /* map height */
+  width:66%; /* map width */
+}
+
+/* AT THE END OF THE HOME SECTION <p id="pfont">Making the Web Beautiful!</p> */
+#pfont {
+  font-family:'Tangerine', sans-serif; /* 'Making the Web Beautiful!' font */
+  font-size:36px; /* 'Making the Web Beautiful!' fonts size */
+}
+
+/* AT THE END OF THE FOOTER <p id="pdev">Developed by <a href="file:///C:/Users/Trey/Documents/(0)%20My%20Programming%20Codes/02-03-2017_FCC_Personal_Profile-Final/W3PersonalPortfolioidk.htm"> Trey Lanzer</a></p> */
+#pdev {
+  font-size:20px; /* pdev ID font size */
+  color:whitesmoke; /* pdev ID font color */
+}
